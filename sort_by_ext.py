@@ -18,6 +18,7 @@ def safe_copy(file_path, out_dir, dst = None):
         shutil.copy(file_path, os.path.join(out_dir, '{}_{}{}'.format(base, i, extension)))
 
 # Name of directory You want to sort
+# example: '/Users/User/Desktop/Sort'
 path = '/path/to/directory'
 list_ = os.listdir(path) 
 
